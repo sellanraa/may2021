@@ -1,7 +1,57 @@
+body {
+    background-color: #999;
+    display: flex;
+    flex-direction: column;
+    height: 100%vh;
+}
+nav {
+    height: 15%;
+    max-height: 200px;
+    background-color:rgb(80, 66, 50)
+}
+#nav-menu {
+
+}
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex-grow: 1;
+    justify-content: space-around;
+}
+.column {
+    width: 75%;
+    height: 100%;
+}
+
+
+#column-1 {
+    background-color: blue;
+}
+#column-2 {
+    background-color: blueviolet
+}
+#column-3 {
+    background-color: violet
+}
+
 h1 {
     font-family: Arial, Helvetica, sans-serif;
     color: rgb(201, 110, 0);
     max-width: 680px;
     text-align: center;
     padding: 0px;
+    height: 100%;
+}
+
+footer {
+    background-color: gray;
+}
+@media screen and (min-width: 800px) {
+    main {
+        flex-direction: row;
+    }
+    .column {
+        width: 30%;
+    }
 }
