@@ -1,4 +1,7 @@
 body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
     background-color: #999;
     display: flex;
     flex-direction: column;
@@ -26,7 +29,7 @@ main {
 
 
 #column-1 {
-    background-color: blue;
+    background-color: lightblue;
 }
 #column-2 {
     background-color: blueviolet
