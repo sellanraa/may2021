@@ -2,7 +2,7 @@ body {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    background-color: #999;
+    background-color: lightgray;
     display: flex;
     flex-direction: column;
     height: 100%vh;
@@ -10,7 +10,7 @@ body {
 nav {
     height: 15%;
     max-height: 200px;
-    background-color:rgb(80, 66, 50)
+    background-color: lightslategray;
 }
 #nav-menu {
 
